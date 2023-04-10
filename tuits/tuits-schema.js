@@ -1,8 +1,7 @@
-import mongoose from "mongoose";
+import mongoose from 'mongoose';
 const schema = mongoose.Schema({
     tuit: String,
     likes: Number,
     liked: Boolean,
-}, {collection: "tuits"});
-
+}, { collection: 'tuits' });
 export default schema;
